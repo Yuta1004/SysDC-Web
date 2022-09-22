@@ -1,11 +1,30 @@
 version: "3"
 
 services:
+    doc:
+        image: klakegg/hugo:0.101.0-ext-alpine
+        command: server
+        volumes:
+            - type: bind
+              source: "./doc"
+              target: "/src"
+              read_only: true
+            - type: bind
+              source: "./doc/.hugo_build.lock"
+              target: "/src/.hugo_build.lock"
+        environment:
+            TZ: Asia/Tokyo
+
     proxy:
         image: nginx:1.23-alpine
         ports:
             - ${PORT}:80
         volumes:
-            - ./proxy/nginx.conf:/etc/nginx/nginx.conf:ro
+            - type: bind
+              source: "./proxy/nginx.conf"
+              target: "/etc/nginx/nginx.conf"
+              read_only: true
         environment:
             TZ: Asia/Tokyo
+        depends_on:
+            - doc
