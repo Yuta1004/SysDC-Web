@@ -1,0 +1,25 @@
+baseURL = "http://doc"
+title = "SysDC"
+theme = "hugo-theme-learn"
+languageCode = "ja-JP"
+defaultContentLanguage = "ja"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[params]
+titleSeparator = "|"
+themeVariant = "blue"
+disableLandingPageButton = true
+disableShortcutsTitle = true
+
+[Languages]
+[Languages.ja]
+weight = 1
+languageName = "日本語"
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "github"
+url = "https://github.com/Yuta1004/SysDC"
+weight = 10
