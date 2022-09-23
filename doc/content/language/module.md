@@ -4,7 +4,7 @@ date: 2022-09-23T08:44:31Z
 weight: 5
 ---
 
-Module は [Function]({{%relref "language/function.md"%}}) または [Procedure]({{%relref "language/procedure.md"%}}) をある一つの単位にまとめるために定義します．
+Module は [Function]({{%relref "language/function.md"%}}) または [Procedure]({{%relref "language/procedure.md"%}}) をある一つの単位にまとめるために使用します．
 
 ### 構文
 
