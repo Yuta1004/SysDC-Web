@@ -4,7 +4,7 @@ date: 2022-09-23T08:44:31Z
 weight: 5
 ---
 
-Module は [Function]({{%relref "language/function.md"%}}) または [Procedure]({{%relref "language/procedure.md"%}}) をある一つの単位にまとめるために使用します．
+Module は [関数(Function)]({{%relref "language/function.md"%}}) または [プロシージャ(Procedure)]({{%relref "language/procedure.md"%}}) をある一つの単位にまとめるために使用します．
 
 ### 構文
 
@@ -33,11 +33,11 @@ NAME は **\.** を含まない文字列です．
 
 #### FUNCTION
 
-[Function]({{%relref "language/function.md"%}}) を参照してください．
+[関数(Function)]({{%relref "language/function.md"%}}) を参照してください．
 
 #### PROCEDURE
 
-[Procedure]({{%relref "language/procedure.md"%}}) を参照してください．
+[プロシージャ(Procedure)]({{%relref "language/procedure.md"%}}) を参照してください．
 
 ### サンプル
 

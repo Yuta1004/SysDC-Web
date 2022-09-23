@@ -8,7 +8,7 @@ weight: 3
 SysDCでは 1 つのプログラムファイルが 1 つの Unit 定義に対応します．  
 したがって， 新しくプログラムファイルを作成することは新しく Unit を定義することに対応します．  
 
-Unit は [Data]({{%relref "language/data.md"%}}) または [Module]({{%relref "language/module.md"%}}) の集合により構成されます．  
+Unit は [データ(Data)]({{%relref "language/data.md"%}}) または [モジュール(Module)]({{%relref "language/module.md"%}}) の集合により構成されます．  
 
 
 ### 構文
