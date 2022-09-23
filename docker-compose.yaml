@@ -8,10 +8,6 @@ services:
             - type: bind
               source: "./doc"
               target: "/src"
-              read_only: true
-            - type: bind
-              source: "./doc/.hugo_build.lock"
-              target: "/src/.hugo_build.lock"
         environment:
             TZ: Asia/Tokyo
 
