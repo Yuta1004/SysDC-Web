@@ -1,7 +1,7 @@
 +++
 title = "セットアップ"
 date = 2022-09-23T07:11:56Z
-weight = 5
+weight = 1
 chapter = true
 pre = "<b>1. </b>"
 +++
