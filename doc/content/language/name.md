@@ -24,23 +24,19 @@ SysDC で定義されたすべての要素は名前を持ちます．
 以下のサンプルプログラム内において，各要素は次のような名前を持ちます．  
 
 ```text
-unit box;  → .0.box
+unit test;  → .0.test
 
-data Box { → .0.box.Box
-    x: i32,  → .0.box.Box.x
-    y: i32   → .0.box.Box.y
+data DataA { → .0.test.DataA
+    x: i32,  → .0.test.DataA.x
+    y: i32   → .0.test.DataA.y
 }
 
-module BoxModuleA {  → .0.box.BoxModuleA
-    proc test() {  → .0.box.BoxModule.test
-        @spawn a: i32 { → .0.box.BoxModuleA.test.a
-
-        }
+module ModuleA {  → .0.test.ModuleA
+    proc test() {  → .0.test.Module.test
+        @spawn a: i32 → .0.test.ModuleA.test.a
     }
 }
 
-module BoxModuleB { }
+module ModuleB { }  → .0.test.ModuleB
 
 ```
-
-(上のプログラムは正常に変換できません)

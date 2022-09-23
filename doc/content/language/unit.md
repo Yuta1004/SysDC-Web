@@ -42,22 +42,21 @@ UNITNAME は以下に示すような **\.** で区切られた文字列です．
 ### サンプル
 
 次のプログラムファイルは Unit **box** として扱われます．  
-この Unit box には
-[Data]({{%relref "language/data.md"%}}) Box ,
-[Module]({{%relref "language/module.md"%}}) BoxModuleA ,
-[Module]({{%relref "language/module.md"%}}) BoxModuleB
+Unit test には
+[Data]({{%relref "language/data.md"%}}) DataA ,
+[Module]({{%relref "language/module.md"%}}) ModuleA ,
+[Module]({{%relref "language/module.md"%}}) ModuleB
 が含まれます．
 
 ```text
-unit box;
+unit test;
 
-data Box {
+data DataA {
     x: i32,
     y: i32
 }
 
-module BoxModuleA { }
+module ModuleA {}
 
-module BoxModuleB { }
-
+module ModuleB {}
 ```

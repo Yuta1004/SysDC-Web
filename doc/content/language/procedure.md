@@ -53,12 +53,12 @@ ANNOTATION はプロシージャ (Procedure) の処理を表現するために�
 ```text
 unit test;
 
-module BoxModule {
+module ModuleA {
     proc test(a: i32) {
         @affect test2(b)
 
         @spawn b: i32 {
-            use a
+            use a;
         }
     }
 

@@ -54,7 +54,7 @@ ANNOTATION は関数 (Function) の処理を表現するために使用します
 ```text
 unit test;
 
-module BoxModule {
+module ModuleA {
     func test(a: i32) -> i32 {
         @return b
 

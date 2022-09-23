@@ -44,7 +44,7 @@ NAME は **\.** を含まない文字列です．
 ```text
 unit test;
 
-module BoxModule {
+module ModuleA {
     proc test() {
 
     }

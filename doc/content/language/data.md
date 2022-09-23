@@ -36,18 +36,17 @@ TYPE は **\.** を含まない文字列です．
 ```text
 unit test;
 
-data A {
+data DataA {
     x: i32,
-    y: u32,
-    z: f32
+    y: u32
 }
 
-data B {
+data DataB {
     id: i32,
-    a: A
+    a: DataA
 }
 
-data C {
-    b: B
+data DataC {
+    b: DataB
 }
 ```
