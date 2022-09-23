@@ -30,7 +30,7 @@ func <NAME>(<NAME>: <TYPE>, <NAME>: <TYPE>, ...) -> <TYPE> {
 #### NAME
 
 NAME は **\.** を含まない文字列です．  
-ただし，既に同じ NAME をもつデータやモジュールなどが定義されている場合，エラーになります．
+ただし，既に同じ NAME をもつ [データ(Data)]({{%relref "language/data.md"%}}) や [モジュール(Module)]({{%relref "language/module.md"%}}) などが定義されている場合，エラーになります．
 
 #### TYPE
 
@@ -40,7 +40,7 @@ TYPE は **\.** を含まない文字列です．
 #### ANNOTATION
 
 ANNOTATION は関数 (Function) の処理を表現するために使用します．  
-使用できる ANNOTATION は以下の通りです．
+使用できる [アノテーション(Annotation)]({{%relref "language/annotation.md"%}}) は以下の通りです．
 
 - `return`
 - `spawn`

@@ -6,9 +6,9 @@ weight: 8
 
 SysDC で定義されたすべての要素は名前を持ちます．
 
-- [Unit]({{%relref "language/unit.md"%}}) 
-- [Module]({{%relref "language/module.md"%}}) 
-- [Data]({{%relref "language/data.md"%}}) 
+- [ユニット(Unit)]({{%relref "language/unit.md"%}}) 
+- [モジュール(Module)]({{%relref "language/module.md"%}}) 
+- [データ(Data)]({{%relref "language/data.md"%}}) 
 - (など…)
 
 名前は以下に示すような **\.** で区切られた文字列です．  
@@ -32,7 +32,7 @@ data DataA { → .0.test.DataA
 }
 
 module ModuleA {  → .0.test.ModuleA
-    proc test() {  → .0.test.Module.test
+    proc test() {  → .0.test.ModuleA.test
         @spawn a: i32 → .0.test.ModuleA.test.a
     }
 }
