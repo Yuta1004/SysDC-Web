@@ -1,7 +1,7 @@
 ---
 title: "Unit"
 date: 2022-09-23T08:44:25Z
-weight: 2
+weight: 3
 ---
 
 設計は Unit 単位で扱われます．  
@@ -48,7 +48,7 @@ UNITNAME は以下に示すような **\.** で区切られた文字列です．
 [Module]({{%relref "language/module.md"%}}) BoxModuleB
 が含まれます．
 
-```box.de
+```text
 unit box;
 
 data Box {
