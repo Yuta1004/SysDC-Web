@@ -1,21 +1,22 @@
 ---
 title: "Linux"
 date: 2022-09-23T07:10:21Z
+weight: 3
 ---
 
-#### 1. リポジトリダウンロード
+### 1. リポジトリダウンロード
 
 ```sh
 $ git clone https://github.com/Yuta1004/SysDC
 ```
 
-#### 2. ビルド
+### 2. ビルド
 
 ```
 $ make build
 ```
 
-#### 依存関係
+### 依存関係
 
 ビルドには以下のパッケージ・ソフトウェアが必要です．
 
@@ -25,13 +26,13 @@ $ make build
 
 以下の環境でビルドできることを確認しています．
 
-##### 実行環境
+#### 実行環境
 
 ```text
 Linux ArchLinux 5.19.9-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 15 Sep 2022 16:08:26 +0000 x86_64 GNU/Linux
 ```
 
-##### バージョン
+#### バージョン
 
 ```sh
 $ cargo --version
