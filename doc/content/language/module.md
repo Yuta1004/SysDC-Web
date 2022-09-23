@@ -1,7 +1,7 @@
 ---
 title: "モジュール(Module)"
 date: 2022-09-23T08:44:31Z
-weight: 5
+weight: 4
 ---
 
 Module は [関数(Function)]({{%relref "language/function.md"%}}) または [プロシージャ(Procedure)]({{%relref "language/procedure.md"%}}) をある一つの単位にまとめるために使用します．

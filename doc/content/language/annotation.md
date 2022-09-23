@@ -1,7 +1,7 @@
 ---
 title: "アノテーション(Annotation)"
 date: 2022-09-23T09:56:04Z
-weight: 8
+weight: 7
 ---
 
 アノテーション(Annotation) は [関数(Function)]({{%relref "language/function.md"%}}) または [プロシージャ(Procedure)]({{%relref "language/procedure.md"%}}) の処理を表現するために使用します．

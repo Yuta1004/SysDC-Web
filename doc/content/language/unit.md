@@ -1,7 +1,7 @@
 ---
 title: "ユニット(Unit)"
 date: 2022-09-23T08:44:25Z
-weight: 3
+weight: 2
 ---
 
 設計は Unit 単位で扱われます．  
