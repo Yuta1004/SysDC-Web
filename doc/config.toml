@@ -1,3 +1,7 @@
 baseURL = "http://doc"
 languageCode = "ja-JP"
 title = "SysDC"
+theme = "hugo-theme-learn"
+
+[outputs]
+home = ["HTML", "JSON"]
