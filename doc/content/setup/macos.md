@@ -1,6 +1,7 @@
 ---
 title: "MacOS"
 date: 2022-09-23T07:10:18Z
+weight: 2
 ---
 
 以下のリンクから **SysDC-x86_64-macos.zip** をダウンロードしてください．   

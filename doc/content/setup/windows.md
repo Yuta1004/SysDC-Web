@@ -1,6 +1,7 @@
 ---
 title: "Windows"
 date: 2022-09-23T07:09:03Z
+weight: 1
 ---
 
 以下のリンクから **SysDC-x86_64-windows.zip** をダウンロードしてください．   
