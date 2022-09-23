@@ -1,5 +1,5 @@
 ---
-title: "data"
+title: "データ(data)"
 date: 2022-09-23T08:44:28Z
 weight: 4
 ---
