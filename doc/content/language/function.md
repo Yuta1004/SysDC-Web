@@ -39,7 +39,7 @@ TYPE は **\.** を含まない文字列です．
 
 #### ANNOTATION
 
-ANNOTATION は関数 (Function) の処理を説明するために使用します．  
+ANNOTATION は関数 (Function) の処理を表現するために使用します．  
 使用できる ANNOTATION は以下の通りです．
 
 - `return`
