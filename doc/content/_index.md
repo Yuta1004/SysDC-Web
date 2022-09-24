@@ -18,7 +18,7 @@ date: 2022-09-23T06:33:39Z
 ### 関連リンク
 
 - [Github - SysDC](https://github.com/Yuta1004/SysDC)
-- [Github - SysDC-Web (this site)](https://github.com/Yuta1004/SysDC)
+- [Github - SysDC-Web (this site)](https://github.com/Yuta1004/SysDC-Web)
 - [SecHack365](https://sechack365.nict.go.jp/)
 
 ### ライセンス
