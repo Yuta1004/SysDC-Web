@@ -69,6 +69,5 @@ $ ./sysdc exec view
 {{% /notice %}}
 
 {{% notice tip %}}
-v0.1.0では *view* の他に *debug* , *json* ツールを使用することが出来ます．
+使用できるツールの一覧は [tool コマンド]({{%relref "tutorial/tool.md"%}}) を用いて確認することが出来ます．
 {{% /notice %}}
-
