@@ -15,9 +15,9 @@ weight: 2
 ```text
 unit logger;
 
-from std import String;
-from std.io import IO;
-from std.time import TimeStamp, Time;
+from string import String;
+from io import IO;
+from time import Time, Timestamp;
 
 module Logger {
     proc info(msg: String) {
@@ -27,8 +27,8 @@ module Logger {
             use timestamp;
         }
 
-        @spawn timestamp: TimeStamp {
-            let now = Time.getNowTime();
+        @spawn timestamp: Timestamp {
+            let now = Time.get_now_time();
             return now;
         }
     }
@@ -40,8 +40,8 @@ module Logger {
             use timestamp;
         }
 
-        @spawn timestamp: TimeStamp {
-            let now = Time.getNowTime();
+        @spawn timestamp: Timestamp {
+            let now = Time.get_now_time();
             return now;
         }
     }
@@ -51,7 +51,7 @@ module Logger {
 ### string.def
 
 ```text
-unit std;
+unit string;
 
 data String {}
 ```
@@ -59,7 +59,7 @@ data String {}
 ### io.def
 
 ```text
-unit std.io;
+unit io;
 
 module IO {
     proc stdout(msg: String) {}
@@ -69,14 +69,14 @@ module IO {
 ### time.def
 
 ```text
-unit std.time;
+unit time;
 
-data TimeStamp {}
+data Timestamp {}
 
 module Time {
-    func getNowTime() -> TimeStamp {
+    func get_now_time() -> Timestamp {
         @return now
-        @spawn now: TimeStamp
+        @spawn now: Timestamp
     }
 }
 ```
