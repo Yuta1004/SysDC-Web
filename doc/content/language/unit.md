@@ -41,7 +41,7 @@ UNITNAME は以下に示すような **\.** で区切られた文字列です．
 
 ### サンプル
 
-次のプログラムファイルは Unit **box** として扱われます．  
+次のプログラムファイルは Unit **test** として扱われます．  
 Unit test には
 [Data]({{%relref "language/data.md"%}}) DataA ,
 [Module]({{%relref "language/module.md"%}}) ModuleA ,
